@@ -19,8 +19,10 @@
 }
 
 - (NSPersistentStore *)addStoreWithType:(NSString *)storeType error:(NSError **)error {
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption, [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+    
     return [self addPersistentStoreWithType:storeType configuration:nil
-                                        URL:[NSPersistentStore defaultURL] options:nil error:error];
+                                        URL:[NSPersistentStore defaultURL] options:options error:error];
 }
 
 @end

@@ -12,7 +12,7 @@
 		C901A25F145F587C007D6D75 /* UITextField+CocoaPlantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C901A25E145F587C007D6D75 /* UITextField+CocoaPlantTests.m */; };
 		C90718631422D82000C20915 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90718351422C98100C20915 /* libKiwi.a */; };
 		C90B0CCB13F55026009C18B1 /* libCocoaPlant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B0CB313F55026009C18B1 /* libCocoaPlant.a */; };
-		C92C58FA1401A47600C606DA /* NSSortDescriptor+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C92C58F81401A47600C606DA /* NSSortDescriptor+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C92C58FA1401A47600C606DA /* NSSortDescriptor+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C92C58F81401A47600C606DA /* NSSortDescriptor+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C92C58FB1401A47600C606DA /* NSSortDescriptor+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C58F91401A47600C606DA /* NSSortDescriptor+CocoaPlant.m */; };
 		C951D3E213F87926001D12CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980C36A13F6A7DD0075AD0B /* UIKit.framework */; };
 		C951D3E313F87926001D12CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980C36D13F6A8930075AD0B /* Foundation.framework */; };
@@ -22,28 +22,28 @@
 		C951D3F713F87926001D12CD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C951D3F613F87926001D12CD /* MasterViewController.m */; };
 		C951D3FA13F87926001D12CD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C951D3F913F87926001D12CD /* DetailViewController.m */; };
 		C951D41013F87CEB001D12CD /* libCocoaPlant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90B0CB313F55026009C18B1 /* libCocoaPlant.a */; };
-		C951D41713F883BB001D12CD /* NSBundle+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C951D41513F883BB001D12CD /* NSBundle+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C951D41713F883BB001D12CD /* NSBundle+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C951D41513F883BB001D12CD /* NSBundle+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C951D41813F883BB001D12CD /* NSBundle+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C951D41613F883BB001D12CD /* NSBundle+CocoaPlant.m */; };
 		C976911213F8A71900B41267 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C951D3E413F87926001D12CD /* CoreData.framework */; };
 		C976911513F8AE9300B41267 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C976911413F8AE9300B41267 /* Event.m */; };
 		C980C36B13F6A7DD0075AD0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980C36A13F6A7DD0075AD0B /* UIKit.framework */; };
 		C980C36E13F6A8930075AD0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980C36D13F6A8930075AD0B /* Foundation.framework */; };
 		C980C37013F6A8B90075AD0B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980C36F13F6A8B90075AD0B /* SenTestingKit.framework */; };
-		C980C39113F6CC940075AD0B /* NSFileManager+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C37D13F6CC940075AD0B /* NSFileManager+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980C39113F6CC940075AD0B /* NSFileManager+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C37D13F6CC940075AD0B /* NSFileManager+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C980C39213F6CC940075AD0B /* NSFileManager+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C37E13F6CC940075AD0B /* NSFileManager+CocoaPlant.m */; };
-		C980C39313F6CC940075AD0B /* NSString+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C37F13F6CC940075AD0B /* NSString+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980C39313F6CC940075AD0B /* NSString+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C37F13F6CC940075AD0B /* NSString+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C980C39413F6CC940075AD0B /* NSString+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C38013F6CC940075AD0B /* NSString+CocoaPlant.m */; };
-		C980C39513F6CC940075AD0B /* NSManagedObject+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38213F6CC940075AD0B /* NSManagedObject+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980C39513F6CC940075AD0B /* NSManagedObject+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38213F6CC940075AD0B /* NSManagedObject+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C980C39613F6CC940075AD0B /* NSManagedObject+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C38313F6CC940075AD0B /* NSManagedObject+CocoaPlant.m */; };
-		C980C39713F6CC940075AD0B /* NSManagedObjectContext+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38413F6CC940075AD0B /* NSManagedObjectContext+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980C39713F6CC940075AD0B /* NSManagedObjectContext+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38413F6CC940075AD0B /* NSManagedObjectContext+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C980C39813F6CC940075AD0B /* NSManagedObjectContext+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C38513F6CC940075AD0B /* NSManagedObjectContext+CocoaPlant.m */; };
-		C980C39913F6CC940075AD0B /* NSManagedObjectModel+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38613F6CC940075AD0B /* NSManagedObjectModel+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980C39913F6CC940075AD0B /* NSManagedObjectModel+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38613F6CC940075AD0B /* NSManagedObjectModel+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C980C39A13F6CC940075AD0B /* NSManagedObjectModel+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C38713F6CC940075AD0B /* NSManagedObjectModel+CocoaPlant.m */; };
-		C980C39B13F6CC940075AD0B /* NSPersistentStore+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38813F6CC940075AD0B /* NSPersistentStore+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980C39B13F6CC940075AD0B /* NSPersistentStore+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38813F6CC940075AD0B /* NSPersistentStore+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C980C39C13F6CC940075AD0B /* NSPersistentStore+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C38913F6CC940075AD0B /* NSPersistentStore+CocoaPlant.m */; };
-		C980C39D13F6CC940075AD0B /* NSPersistentStoreCoordinator+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38A13F6CC940075AD0B /* NSPersistentStoreCoordinator+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980C39D13F6CC940075AD0B /* NSPersistentStoreCoordinator+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38A13F6CC940075AD0B /* NSPersistentStoreCoordinator+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C980C39E13F6CC940075AD0B /* NSPersistentStoreCoordinator+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C38B13F6CC940075AD0B /* NSPersistentStoreCoordinator+CocoaPlant.m */; };
-		C980C39F13F6CC940075AD0B /* UIAlertView+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38D13F6CC940075AD0B /* UIAlertView+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C980C39F13F6CC940075AD0B /* UIAlertView+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C38D13F6CC940075AD0B /* UIAlertView+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C980C3A013F6CC940075AD0B /* UIAlertView+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C38E13F6CC940075AD0B /* UIAlertView+CocoaPlant.m */; };
 		C980C3AC13F6CE910075AD0B /* NSFileManager+CocoaPlantSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C3A313F6CE910075AD0B /* NSFileManager+CocoaPlantSpecs.m */; };
 		C980C3AD13F6CE910075AD0B /* NSString+CocoaPlantSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C3A413F6CE910075AD0B /* NSString+CocoaPlantSpecs.m */; };
@@ -52,12 +52,12 @@
 		C980C3B013F6CE910075AD0B /* NSManagedObjectModel+CocoaPlantSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C3A813F6CE910075AD0B /* NSManagedObjectModel+CocoaPlantSpecs.m */; };
 		C980C3B113F6CE910075AD0B /* NSPersistentStore+CocoaPlantSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C3A913F6CE910075AD0B /* NSPersistentStore+CocoaPlantSpecs.m */; };
 		C980C3B213F6CE910075AD0B /* NSPersistentStoreCoordinator+CocoaPlantSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C980C3AA13F6CE910075AD0B /* NSPersistentStoreCoordinator+CocoaPlantSpecs.m */; };
-		C985E2B6144E7DEC0076418A /* UIView+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C985E2B4144E7DEC0076418A /* UIView+CocoaPlant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C985E2B6144E7DEC0076418A /* UIView+CocoaPlant.h in Headers */ = {isa = PBXBuildFile; fileRef = C985E2B4144E7DEC0076418A /* UIView+CocoaPlant.h */; settings = {ATTRIBUTES = (); }; };
 		C985E2B7144E7DEC0076418A /* UIView+CocoaPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = C985E2B5144E7DEC0076418A /* UIView+CocoaPlant.m */; };
-		C9A3790C1455DD5D00E6A5D4 /* CPCoreDataTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A3790B1455DD5D00E6A5D4 /* CPCoreDataTraits.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9AD93E9145654CB00871695 /* CPCoreDataTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AD93E7145654CB00871695 /* CPCoreDataTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A3790C1455DD5D00E6A5D4 /* CPCoreDataTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A3790B1455DD5D00E6A5D4 /* CPCoreDataTraits.h */; settings = {ATTRIBUTES = (); }; };
+		C9AD93E9145654CB00871695 /* CPCoreDataTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AD93E7145654CB00871695 /* CPCoreDataTableViewController.h */; settings = {ATTRIBUTES = (); }; };
 		C9AD93EA145654CB00871695 /* CPCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AD93E8145654CB00871695 /* CPCoreDataTableViewController.m */; };
-		C9E3FA0E143BBA68001E0880 /* CocoaPlantDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C3B313F6CF2A0075AD0B /* CocoaPlantDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9E3FA0E143BBA68001E0880 /* CocoaPlantDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C980C3B313F6CF2A0075AD0B /* CocoaPlantDefines.h */; settings = {ATTRIBUTES = (); }; };
 		C9F182AF13F8BAA30026AF0D /* NSBundle+CocoaPlantSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F182AE13F8BAA30026AF0D /* NSBundle+CocoaPlantSpecs.m */; };
 		C9F182B813F8BE170026AF0D /* CocoaPlantApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9F182B113F8BD980026AF0D /* CocoaPlantApp.xcdatamodeld */; };
 		C9F182EE13F8BF470026AF0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C980C36D13F6A8930075AD0B /* Foundation.framework */; };
@@ -430,6 +430,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C901A258145F57E1007D6D75 /* UITextField+CocoaPlant.h in Headers */,
 				C9E3FA0E143BBA68001E0880 /* CocoaPlantDefines.h in Headers */,
 				C951D41713F883BB001D12CD /* NSBundle+CocoaPlant.h in Headers */,
 				C980C39113F6CC940075AD0B /* NSFileManager+CocoaPlant.h in Headers */,
@@ -444,7 +445,6 @@
 				C92C58FA1401A47600C606DA /* NSSortDescriptor+CocoaPlant.h in Headers */,
 				C9A3790C1455DD5D00E6A5D4 /* CPCoreDataTraits.h in Headers */,
 				C9AD93E9145654CB00871695 /* CPCoreDataTableViewController.h in Headers */,
-				C901A258145F57E1007D6D75 /* UITextField+CocoaPlant.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +667,80 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		469F384915328456006C0F9D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos5.1;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = AdHoc;
+		};
+		469F384A15328456006C0F9D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CocoaPlant.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaPlant/CocoaPlant-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = AdHoc;
+		};
+		469F384B15328456006C0F9D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaPlantApp/CocoaPlantApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = "CocoaPlantApp/CocoaPlantApp-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"${BUILT_PRODUCTS_DIR}/libCocoaPlant.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		469F384C15328456006C0F9D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CocoaPlantApp.app/CocoaPlantApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaPlantSpecs/CocoaPlantSpecs-Prefix.pch";
+				HEADER_SEARCH_PATHS = Libraries/Kiwi;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"${BUILT_PRODUCTS_DIR}/libKiwi.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = AdHoc;
+		};
 		C90B0CD513F55026009C18B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -687,7 +761,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos5.1;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -704,8 +780,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos5.1;
+				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -717,6 +795,7 @@
 				GCC_PREFIX_HEADER = "CocoaPlant/CocoaPlant-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -729,6 +808,7 @@
 				GCC_PREFIX_HEADER = "CocoaPlant/CocoaPlant-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -822,6 +902,7 @@
 			buildConfigurations = (
 				C90B0CD513F55026009C18B1 /* Debug */,
 				C90B0CD613F55026009C18B1 /* Release */,
+				469F384915328456006C0F9D /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -831,6 +912,7 @@
 			buildConfigurations = (
 				C90B0CD813F55026009C18B1 /* Debug */,
 				C90B0CD913F55026009C18B1 /* Release */,
+				469F384A15328456006C0F9D /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -840,6 +922,7 @@
 			buildConfigurations = (
 				C90B0CDB13F55026009C18B1 /* Debug */,
 				C90B0CDC13F55026009C18B1 /* Release */,
+				469F384C15328456006C0F9D /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -849,6 +932,7 @@
 			buildConfigurations = (
 				C951D40213F87926001D12CD /* Debug */,
 				C951D40313F87926001D12CD /* Release */,
+				469F384B15328456006C0F9D /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
