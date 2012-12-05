@@ -43,7 +43,7 @@
 
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:entityName];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1
                                       reuseIdentifier:CellIdentifier];
     }
 
